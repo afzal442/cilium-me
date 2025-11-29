@@ -26,7 +26,8 @@ Node network:  192.168.0.0/24
 ```
 
 Example of misconfiguration:
-
+```
 Pod CIDR:      10.0.0.0/16
 Service CIDR:  10.0.0.0/20    # ❌ Overlaps Pod CIDR
 Node network:  10.0.5.0/24    # ❌ Overlaps both ranges
+```
